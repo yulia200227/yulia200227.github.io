@@ -1,0 +1,43 @@
+body {
+    background: black;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    margin: 0px 160px;
+}
+
+.header-logo {
+    margin: 0px 50px;
+    color: white;
+    font-family:'Kaushan Script', cursive; 
+    font-size: 35px;
+}
+
+.header {
+    background-image: url(plant-g4edd10458_1920.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 17px;
+    margin-right: 55px;
+
+    transition: color 0.4s linear;
+}
+
+.nav-item:hover {
+    color: #136c45;
+}
