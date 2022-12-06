@@ -81,25 +81,22 @@ body {
     margin-top: 150px;
 }
 
-.card-holder {
-    display: flex;
+
+
+.image {
+    width: 350px;
+    margin-top: 200px;
+    margin-left: 280px;
 }
 
-.card {
-   margin: 0px  120px 0px;
-   width: 300px; 
-   box-shadow: 5px 5px 15px 3px ;
-   margin-right: 150px;
+.story-text {
+   width: 900px; 
+   margin: 0px 280px 0px;
+   display: flex;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
 
 }
 
-.card-title {
-display: flex;
-justify-content: center;
-}
-
-.card-desc {
-    display: flex;
-    justify-content: center;
-}
 
