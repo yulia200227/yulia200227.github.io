@@ -1,6 +1,6 @@
 body {
-    background: black;
-    margin: 0%;
+    background: rgb(255, 255, 255);
+    margin: 140%;
     font-family: 'Roboto', sans-serif;
 }
 .container {
@@ -8,10 +8,10 @@ body {
 }
 
 .header-logo {
-    margin: 0px 50px;
+    margin: 30px ;
     color: white;
     font-family:'Kaushan Script', cursive; 
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .header {
@@ -19,6 +19,26 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.header:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 200px;
+    background-color: #fff;
+    top: 100px;
+    left: 50px;
+}
+
+.header:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 200px;
+    background-color: #fff;
+    top: 100px;
+    right: 50px;
 }
 
 .header-line {
@@ -40,4 +60,35 @@ body {
 
 .nav-item:hover {
     color: #136c45;
+}
+
+.header-down {
+    position: relative;
+    margin: 60px;
+    margin-left: 140px ;
+}
+.header-title {
+    color: #fff;
+    font-family:'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: 450;
+
+    text-align: left;
+    position: absolute;
+    left: 0;
+    margin-top: 150px;
+}
+
+.card {
+   background-color: #136c45; 
+}
+
+.card-title {
+display: flex;
+justify-content: center;
+}
+
+.card-desc {
+    display: flex;
+    justify-content: center;
 }
