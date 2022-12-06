@@ -1,8 +1,10 @@
 body {
-    background: #136c45;
-    margin: 140%;
+    background: #47524d;
+
+    margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
 .container {
     margin: 0px 160px;
 }
