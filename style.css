@@ -1,13 +1,22 @@
 body {
-    background: #47524d;
+    background: #123524;
 
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 .container {
     margin: 0px 140px;
 }
+a {
+    color: #59957b;
+    text-decoration: none;
+}
+a :hover {
+    color: #136c45;
+    transition: color 0.4s linear
+   }
 
 .header-logo {
     margin: 30px ;
@@ -81,22 +90,75 @@ body {
     margin-top: 150px;
 }
 
+.Text-bold {
+    font-family:'Kaushan Script', cursive;
+    font-weight: 250px;
+    color: #59957b;
+}
 
-
-.image {
-    width: 350px;
-    margin-top: 200px;
-    margin-left: 280px;
+.row {
+   display: flex;
+   justify-content:space-between
 }
 
 .story-text {
-   width: 900px; 
-   margin: 0px 280px 0px;
-   display: flex;
-   align-items: center;
-   font-family: 'Roboto', sans-serif;
-   font-size: 18px;
-
+    margin-top: 150px ;
+    margin-left: 280px;
+    margin-right: 200px;
 }
 
+.image {
+    width: 350px;
+    border-radius: 30px;
+    margin-top: 200px;
+    margin-right: 280px;
+}
+
+.row-portfolio {
+    display: flex;
+    justify-content:space-between;
+}
+.photo-portfolio {
+    width: 350px;
+    border-radius: 30px;
+    margin-top: 170px;
+    margin-left: 280px;
+}
+
+.portfolio-text {
+    margin-top:  280px ;
+    margin-left: 80px;
+    margin-right: 300px;
+}
+
+.photo-portfolio2 {
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.photo-portfolio3 {
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 65px;
+}
+
+.photo-portfolio4 {
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 65px;
+    margin-right: 300px;
+}
+
+.portfolio-text2 {
+    margin-left: 280px;
+    margin-right: 300px;
+    text-align: center;
+    left: 280px;
+    margin-top: 50px;
+    
+}
 
