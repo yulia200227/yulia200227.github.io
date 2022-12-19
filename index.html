@@ -1,126 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> іНФОРМАЦІЯ ПРО МЕНЕ</title>
+    <meta name="description" content="Рада познайомитись) Тут трішки інформації про мене!">
+    <meta property="og:image" content="https://yulia200227.github.io/photo1.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="Рада познайомитися, тут трішки інформації про мене">
-    <link rel="shortcut icon" href="/my photo.ico" type="image/jpg">
+    <link rel="shortcut icon" href="my photo.ico" type="image/jpg" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <title> Yakymiv Yulia </title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
 
+    <title>Intro to CSS</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
 </head>
+
 <body>
-    <div class="header">
-            <div class="container"> 
-                <div class="header-line"> 
-
-                    <div class="header-logo">
-                        Dezigner
+    <header class="headerontop">
+        <nav>
+            <div class="navbar container">
+                <ul class="menu1">
+                    <div class="logo"><a href="#Yulia Yakymiv">YULIA YAKUMIV</a>
                     </div>
-                    <div class="nav">
-                        <a class="nav-item" href="@"> Головна </a>
-                        <a class="nav-item" href="@"> Про мене </a>
-                        <a class="nav-item" href="@"> Портфоліо </a>
-                        <a class="nav-item" href="@"> Контакти </a>
-                    </div>
+                </ul>
+                <ul class="menu">
+                    <li>
+                        <a href="#about">Про мене</a>
+                    </li>
+                    <li>
+                        <a href="#Portfolio">Портфоліо</a>
+                    </li>
+                    <li>
+                        <a href="#Programs">Програми</a>
+                    </li>
+                    <li>
+                        <a href="#Contacts">Контакти</a>
+                    </li>
+                </ul>
             </div>
-       
-                        <div class="header-down">
-                            <div class="header-title">
-                                <h2> Привіт.</h2>
-                                    <p> 
-                                        <h2> Мене звати Якимів Юля Володимирівна </h2>
-                                    </p>
-                                Це моя перша веб-сторінка
-                            </div>
-                        </div>
-
+        </nav>
         </div>
-    </div>
+    </header>
 
-    <div class="my-story">
-        <div class="conteiner">
-            <div class="row">
 
-                <div class="story-text">
-                    <div class="Text-bold">
-                        <h3>Моя автобіографія</h3></div>
-                         <p>27.10. - мені виповнилося 20 р. </p> 
-                         Народилася і живу у Львові.
-                         У мене велика сім'я - 3 сестри і 3 брати, і навіть вже маю 10 племінників, якихь дуже сильно люблю. У вільний час люблю грати на фортепіано. 
-                         Також співаю в цурковному хорі.
+    <main class="home">
+        <div class="container">
+            <div class="home-content">
 
-                        <div class="Text-bold"><h3>Моє навчання</h3></div>
-                    <p>Я навчаюся на графічного дизайнера в <a href="https://lnam.edu.ua/uk/history.html"  target="_blank"> <p> <em>Львівській Національній Академії Мистецтв.</em> </a> </p> 
-                        <p> <b> Я вивчала такі програми: </p></b>
-                       <ul>
-                        <li>Illustrator </li>
-                        <li>Adobe Photoshop </li>
-                        <li>Adobe Indezing </li> </ul>
-                        Мені найбільш сподобалося створювати айдентику, і верстати маленькі видання. </p>
-
-                        <div class="Text-bold"><h3>Моє хобі</h3> </div>
-
-                    <p>Давно захоплююся кулінарією, люблю щось випікати, придумувати нові рецепти. Це для мене час щось зробити смачне і навести думки в порядок. </p> <p>А ще одне із мого хобі, це фотографувати. Це в мене дуже давно зародилося таке бажання вміти гарно фотографувати, і заодно подорожувати по гарних місцях.  </p>
-                  </div>
-                    <div class="image"> 
-
-                    <img src="yulia.JPG" alt="це я" class="image" />
+                <div class="home-content-left">
+                    <div class="home-title" id="Yulia Yakymiv">
+                        Yulia Yakymiv <br/> GRAPHIC DESIGNER
                     </div>
-            </div>
+                    <a href="#About me" class="btn">Дізнатися більше</a>
+                </div>
+                <div class="onephoto">
+                    <img class="oneimg" src="yulia.JPG">
+                </div>
             </div>
         </div>
-    </div>
+    </main>
 
-    <div class="portfolio">
-        
-        <div class="conteiner">
-            <div class="row-portfolio">
+    <main class="h1 black">
+        <div id="about" class="container">
+            <div class="about1">ПРО МЕНЕ</div>
+            <p class="paragraf">
+                Я – Софія. Люблю коли мене називають Софа. Мені 19, 23 січня виповниться цілих 20 (звучить трохи страшно і надто по-дорослому). Навчаюсь у <a href="https://lnam.edu.ua/uk/" target="_blank">Львівській національній академії мистецтв</a>                (ЛНАМ) на факультеті графічного дизайну і дуже цьому рада. Люблю подорожувати, об'їздила багато країн Європи, хотіла б побувати в Франції (Париж) і полетіти в Америку. Люблю також дивитися різні фільми, тусити з друзями і просто насолоджуватись
+                життям.
+            </p>
+            <h1 class="exception">Мої хобі і просто те, що подобається:</h1>
+            <ul class="hobbimenu">
+                <li>дизайн і все що з ним зв'язане (особливо подобається саме веб);</li>
+                <li>сучасні танці (на жаль зараз немає часу ними займатись), займалась чотири роки тому стилем jazz funk, хотіла б навчитись танцювати і в інших стилях;</li>
+                <li>спорт, стараюсь виділяти час на спортзал, адже це дуже важливо;</li>
+                <li>фотографувати, на телефон фоткаю все, що бачу і цих фото дуже і дуже багато. Хотіла б навчитись робити це набагато професійніше та знати більше;</li>
+                <li>люблю котів, а особливо шотландських висловухих (собак і хом'ячків теж);</li>
+                <li>обожнюю суші, без них не можу уявити своє життя;</li>
+                <li>дуже люблю піони і піоновидні троянди;</li>
+                <li>Великобританія – моя любов, особливо Лондон!</li>
+            </ul>
+            <!-- <div class="photo">
+                 <img class="img-photo" src="photo4.jpg">
+                 <img class="img-photo" src="photo5.jpg">
+                 <img class="img-photo" src="photo8.jpg">
+                 <img class="img-photo" src="photo7.jpg">
+                 <img class="img-photo" src="photo6.jpg">
+                 <img class="img-photo" src="photo9.jpg">
+           </div> -->
+            <h2 class="exception">Цілі на цей семестр навчання:</h2>
+            <ol class="goalsmenu">
+                <li>Вдосконалювати себе у веб-дизайні.</li>
+                <li>Навчитись професійно користуватись фотоапаратом.</li>
+                <li>Покращити свої навички по верстці і знання по InDesign.</li>
+                <li>Вивчити багато нових фішок програми Illustrator і Photoshop.</li>
+                <li>Робити все вчасно і продуктивно!</li>
+            </ol>
+        </div>
+    </main>
 
-            <div class="portfolio-image">
-                <img src="font.jpg" alt="шрифт" class="photo-portfolio" />
+
+    <main class="h1">
+        <div class="container" id="Portfolio">
+            <div class="about">ПОРТФОЛІО</div>
+            <p class="paragraf1">
+                Ось декілька моїх робіт на теперішній час:
+            </p>
+            <br>
+            <div class="photo-second">
+                <img class="img-photo2" src="photo10.jpg">
+                <img class="img-photo2" src="photo11.jpg">
+                <img class="img-photo2" src="photo16.jpg">
+                <img class="img-photo2" src="photo17.jpg">
+                <img class="img-photo2" src="photo19.jpg">
+                <img class="img-photo2" src="photo14.jpg">
+                <img class="img-photo2" src="photo12.jpg">
+                <img class="img-photo2" src="photo15.jpg">
             </div>
 
-                <div class="portfolio-text">
-                    <div class="Text-bold"> <h3> Мій власний перший розроблений шрифт </h3> </div>
-                <p>
-                   У нас було завдання з предмету шрифтів розробити свій власний шрифт. І у мене получився ось такий, який можна використовувати на різних плакатах, і багато де..  
-                </p>
-                </div>
+
+            <div class="about" id="Programs">
+                програми які використовую у навчання
+            </div>
+            <br>
+            <div class="photo-third">
+                <img class="img-photo3" src="photo24.jpg">
+                <img class="img-photo3" src="photo23.jpg">
+                <img class="img-photo3" src="photo22.jpg">
+                <img class="img-photo3" src="photo25.jpg">
+
             </div>
 
-            <div class="row-portfolio">
+        </div>
+    </main>
 
-                <div class="portfolio-image">
-                    <img src="calendar may.jpg" alt="calendar"class="photo-portfolio2" />
-                </div>
-                
-                <div class="portfolio-image">
-                    <img src="calendar september.jpg" alt="september" class="photo-portfolio3" /> 
-                </div>
 
-                <div class="portfolio-image">
-                    <img src="calendar october.jpg" alt="september" class="photo-portfolio4" /> 
-                </div>
-            </div>
-                    <div class="portfolio-text2">
-                        <div class="Text-bold"> <h2> Розробка календаря </h2>
-                        </div>
-                    <p>
-                       Це завдання також було фінальне, але з предмету проектування. Завдання було поставлене, щоб зробити патріотичний календар на 2023 р.
-                       Я використала архітектурні ілюстрації, ажде вони мають стільки історій, і це є наше українське багатство.
+    <main class="h1 black">
+        <div class="container">
+            <div class="about2" id="Contacts"><b>КОНТАКТИ</b></div>
+            <div class="flex">
+                <div class="bottom-container">
+                    <p class="paragraf2">
+                        +380686972899 <br/>
                     </p>
-                    </div>
-                
-            
+                    <p class="paragraf3">
+                        julliyakymiv@yahoo.com
+                    </p>
+                </div>
+                <div class="photo-fourth">
+                    <a href="https://www.facebook.com/profile.php?id=100012955964113" target="_blank"> <img class="imgphoto" src="photo2.jpg">
+                    </a>
+                    <a href="https://www.instagram.com/sofika_bushka" target="_blank"> <img class="imgphoto" src="photo1.jpg">
+                    </a>
+                </div>
+            </div>
         </div>
+    </main>
 
-    </div>
+    <main class="headerontop">
+        <nav class="navbar">
+            <ul class="menu1">
+                <div class="logo"><a href="#YULIA YAKYMIV">YULIA YAKYMIV</a>
+                </div>
+            </ul>
+            <ul class="menu">
+                <li>
+                    <a href="#about">Про мене</a>
+                </li>
+                <li>
+                    <a href="#Portfolio">Портфоліо</a>
+                </li>
+                <li>
+                    <a href="#Programs">Програми</a>
+                </li>
+                <li>
+                    <a href="#Contacts">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+    </main>
 
 </body>
+
 </html>

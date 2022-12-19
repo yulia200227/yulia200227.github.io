@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    .home-content {
+        justify-content: center;
+        align-items: center;
+    }
+    .home-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .home-content {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .home-content-left {
+        width: 100%;
+        max-width: 100%;
+        order: 2;
+    }
+    .onephoto {
+        width: 100%;
+        order: 1;
+    }
+}

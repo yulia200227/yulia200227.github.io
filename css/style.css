@@ -1,0 +1,352 @@
+/* html {
+    font-size: 18px;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(16, 93, 75);
+}
+
+.black {
+    background-color: rgb(16, 93, 75);
+}
+
+.about {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    margin: 40px 0px 0px 30px;
+    color: rgb(16, 93, 75);
+}
+
+#about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about1 {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: left;
+    margin: 10px 0px 20px 33px;
+    color: rgb(255, 255, 255);
+}
+
+.about2 {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: left;
+    margin: 30px 0px 20px 40px;
+    color: rgb(255, 255, 255);
+}
+
+.paragraf {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px 30px 5px 33px;
+    color: white;
+    max-width: 1350px;
+}
+
+.paragraf1 {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 30px 30px 5px 33px;
+    color: rgb(16, 93, 75);
+    max-width: 1350px;
+}
+
+.paragraf2 {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 40px;
+    color: white;
+    max-width: 1350px;
+}
+
+.paragraf3 {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 40px;
+    color: white;
+    max-width: 1350px;
+}
+
+.paragraf a {
+    text-decoration: none;
+    color: rgb(16, 93, 75);
+}
+
+.exception {
+    font-size: 17px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin: 5px 30px 5px 33px;
+}
+
+.hobbimenu {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 0px 0px 20px 20px;
+    color: white;
+}
+
+.photo {
+    display: flex;
+    margin: 20px 30px;
+    justify-content: center;
+    gap: 70px;
+}
+
+.oneimg {
+    border-radius: 20px;
+    width: auto;
+}
+
+.img-photo {
+    border-radius: 30px;
+    width: auto;
+    height: 210px;
+    box-shadow: rgb(16, 93, 75);
+}
+
+.photo-second {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 70px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-photo2 {
+    box-shadow: rgb(16, 93, 75);
+    width: auto;
+    height: 175px;
+    margin: 0px 10px 20px 0px;
+}
+
+.photo-fourth {
+    display: flex;
+    margin-right: 40px;
+    justify-content: right;
+    gap: 50px;
+}
+
+.photo-third {
+    display: flex;
+    margin: 20px 30px 50px 30px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img-photo3 {
+    border-radius: 10px;
+    width: auto;
+    height: 150px;
+    gap: 80px;
+}
+
+.imgphoto {
+    border-radius: 150px;
+    width: auto;
+    height: 80px;
+}
+
+.goalsmenu {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 5px 0px 20px 20px;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.headerontop {
+    position: sticky;
+    top: 0;
+}
+
+.home {
+    min-height: 100%;
+    background-color: rgb(16, 93, 75);
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+    background-color: rgb(16, 93, 75);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-content-left {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 30px;
+}
+
+.home-title {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.btn {
+    text-decoration: none;
+    line-height: 1.5em;
+    background-color: rgb(7, 193, 150);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.home-btn:hover {
+    background-color: rgb(16, 93, 75);
+}
+
+.home-btn:active {
+    position: relative;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+.onephoto {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    width: 50%;
+}
+
+#Portfolio {
+    background-color: white;
+}
+
+#Contacts {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+nav {
+    background-color: rgb(16, 93, 75);
+}
+
+.navbar {
+    background-color: rgb(16, 93, 75);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.menu1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.menu1 a {
+    text-decoration: none;
+    line-height: 1.5em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 4px 15px;
+    margin: 0px 4px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+
+.menu1 a:hover {
+    background-color: rgb(7, 193, 150);
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.menu a {
+    text-decoration: none;
+    line-height: 1.5em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 4px 15px;
+    margin: 0px 4px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: rgb(7, 193, 150);
+}
