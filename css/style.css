@@ -50,7 +50,7 @@ body {
     text-align: center;
 }
 
-.paragraf {
+.text {
     display: block;
     font-family: 'Jost', sans-serif;
     font-weight: 400;
@@ -58,9 +58,10 @@ body {
     margin: 5px 30px 5px 33px;
     color: white;
     max-width: 1350px;
+    
 }
 
-.paragraf1 {
+.text1 {
     display: block;
     font-family: 'Jost', sans-serif;
     font-weight: 500;
@@ -69,35 +70,16 @@ body {
     color: rgb(16, 93, 75);
     max-width: 1350px;
     text-align: center;
+    text-decoration: none;
 
 }
-
-.paragraf2 {
-    display: block;
-    font-family: 'Jost', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    margin-left: 40px;
-    color: white;
-    max-width: 1350px;
-}
-
-/* .paragraf3 {
-    display: block;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    margin-left: 40px;
-    color: white;
-    max-width: 1350px;
-} */
 
 .paragraf a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-.exception {
+.species {
     font-size: 20px;
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -105,11 +87,11 @@ body {
     margin: 5px 30px 5px 33px;
 }
 
-.hobbimenu {
+.hobbi {
     font-size: 15px;
     font-family: 'Jost', sans-serif;
     font-weight: 350;
-    margin: 10px 0px 25px 25px; 
+    margin: 5px 30px 5px 33px;
     color: white;
 }
 
@@ -132,7 +114,7 @@ body {
     box-shadow: rgb(16, 93, 75);
 }
 
-.photo-second {
+.photo-2 {
     display: flex;
     flex-wrap: wrap;
     margin: 10px 70px;
@@ -147,13 +129,13 @@ body {
     margin: 0px 15px 25px 0px;
 }
 
-.photo-fourth {
+.photo-4{
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.photo-third {
+.photo-3 {
     display: flex;
     margin: auto;
     justify-content: center;
@@ -174,11 +156,11 @@ body {
     width: 35px;
 }
 
-.goalsmenu {
+.goals {
     font-size: 15px;
     font-family: 'Jost', sans-serif;
     font-weight: 400;
-    margin: 5px 0px 20px 20px;
+    margin: 5px 30px 5px 33px;
     color: white;
 }
 
@@ -313,58 +295,4 @@ nav {
     font-weight: 700;
     font-size: 18px;
     white-space: nowrap;
-}
-
-.menu1 {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: flex-start;
-}
-
-.menu1 a {
-    text-decoration: none;
-    line-height: 1.5em;
-    color: white;
-    font-family: 'Jost', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    padding: 4px 15px;
-    margin: 0px 4px;
-    border: 0px solid transparent;
-    border-radius: 5px;
-}
-
-.menu1 a:hover {
-    background-color: rgb(7, 193, 150);
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: flex-end;
-}
-
-.menu a {
-    text-decoration: none;
-    line-height: 1.5em;
-    color: white;
-    font-family: 'Jost', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 4px 15px;
-    margin: 0px 4px;
-    border: 0px solid transparent;
-    border-radius: 5px;
-}
-
-.menu a:hover {
-    background-color: rgb(7, 193, 150);
 }
