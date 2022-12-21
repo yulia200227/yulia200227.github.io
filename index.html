@@ -6,20 +6,25 @@
     <meta name="description" content="Рада познайомитись) Тут трішки інформації про мене!">
     <meta property="og:image" content="https://yulia200227.github.io/photo1.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="my photo.ico" type="image/jpg" />
+    <link rel="shortcut icon" href="yulia.JPG" type="image/jpg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Unbounded:wght@200;400;500&display=swap" rel="stylesheet">
 
     <title>Intro to CSS</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/mobile.css" />
 </head>
 
 <body>
     <header class="headerontop">
-        <nav>
+        <!-- <nav>
             <div class="navbar container">
                 <ul class="menu1">
                     <div class="logo"><a href="#Yulia Yakymiv">YULIA YAKUMIV</a>
@@ -40,8 +45,32 @@
                     </li>
                 </ul>
             </div>
+        </nav> -->
+
+        <nav>
+            <div class="navbar container">
+                <div class="logo">
+                    <a class="logo" href="#YAKUMIV YULIA">
+                        YAKUMIV YULIA
+                    </a>
+                </div>
+                <div class="navigation">
+                    <button class="nav-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul>
+                        <li><a class="nav-link" href="#about">Моя історія</a></li>
+                        <li><a class="nav-link" href="#Portfolio">Програмки</a></li>
+                        <li><a class="nav-link" href="#programs">Роботи</a></li>
+                        <li><a class="nav-link" href="#Contacts">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        </div>
+
     </header>
 
 
@@ -51,34 +80,29 @@
 
                 <div class="home-content-left">
                     <div class="home-title" id="Yulia Yakymiv">
-                        Yulia Yakymiv <br/> GRAPHIC DESIGNER
+                        Yulia Yakymiv 
                     </div>
-                    <a href="#About me" class="btn">Дізнатися більше</a>
+                    <a href="#about" class="btn">Дізнатися детальніше</a>
                 </div>
-                <div class="onephoto">
-                    <img class="oneimg" src="yulia.JPG">
+                <div class="myphoto">
+                    <img class="imgmy" src="yulia.JPG">
                 </div>
             </div>
         </div>
     </main>
 
-    <main class="h1 black">
+    <main class="h1 green">
         <div id="about" class="container">
-            <div class="about1">ПРО МЕНЕ</div>
+            <div class="about1">МОЯ ІСТОРІЯ</div>
             <p class="paragraf">
-                Я – Софія. Люблю коли мене називають Софа. Мені 19, 23 січня виповниться цілих 20 (звучить трохи страшно і надто по-дорослому). Навчаюсь у <a href="https://lnam.edu.ua/uk/" target="_blank">Львівській національній академії мистецтв</a>                (ЛНАМ) на факультеті графічного дизайну і дуже цьому рада. Люблю подорожувати, об'їздила багато країн Європи, хотіла б побувати в Франції (Париж) і полетіти в Америку. Люблю також дивитися різні фільми, тусити з друзями і просто насолоджуватись
-                життям.
+                Мене звати Юля. Мені 20 років. <br>Навчаюсь у <a href="https://lnam.edu.ua/uk/" target="_blank">Львівській національній академії мистецтв</a>(ЛНАМ)<br> на спеціальність <b>графічний дизайн.</b> <br>Люблю подорожувати, і мрію побувати в Амерці. <br>Люблю також дивитися різні серіали і просто насолоджуватись, поки маю можливість.
             </p>
-            <h1 class="exception">Мої хобі і просто те, що подобається:</h1>
+            <h1 class="exception"><b>Просто те, що подобається:</b></h1>
             <ul class="hobbimenu">
-                <li>дизайн і все що з ним зв'язане (особливо подобається саме веб);</li>
-                <li>сучасні танці (на жаль зараз немає часу ними займатись), займалась чотири роки тому стилем jazz funk, хотіла б навчитись танцювати і в інших стилях;</li>
-                <li>спорт, стараюсь виділяти час на спортзал, адже це дуже важливо;</li>
-                <li>фотографувати, на телефон фоткаю все, що бачу і цих фото дуже і дуже багато. Хотіла б навчитись робити це набагато професійніше та знати більше;</li>
-                <li>люблю котів, а особливо шотландських висловухих (собак і хом'ячків теж);</li>
-                <li>обожнюю суші, без них не можу уявити своє життя;</li>
-                <li>дуже люблю піони і піоновидні троянди;</li>
-                <li>Великобританія – моя любов, особливо Лондон!</li>
+                <li>дизайн і все що з ним пов'язане (особливо це створювати айдентику);</li>
+                <li>спорт, одне із улюбленіших занять</li>
+                <li>фото, іноді задумуюся нащо мені купа фоток,<br> але всі вони просто неймовірні, бо все навкруги подобається </li>
+                <li>дуже люблю готувати сама, і випікати</li>
             </ul>
             <!-- <div class="photo">
                  <img class="img-photo" src="photo4.jpg">
@@ -88,13 +112,13 @@
                  <img class="img-photo" src="photo6.jpg">
                  <img class="img-photo" src="photo9.jpg">
            </div> -->
-            <h2 class="exception">Цілі на цей семестр навчання:</h2>
+            <h2 class="exception"><b>Цілі які хочу досягнути у житті</b></h2>
             <ol class="goalsmenu">
-                <li>Вдосконалювати себе у веб-дизайні.</li>
-                <li>Навчитись професійно користуватись фотоапаратом.</li>
-                <li>Покращити свої навички по верстці і знання по InDesign.</li>
-                <li>Вивчити багато нових фішок програми Illustrator і Photoshop.</li>
-                <li>Робити все вчасно і продуктивно!</li>
+                <li>Навчитися професійно фотографувати</li>
+                <li>Поїздити по різних країнах</li>
+                <li>Все, чого мене навчають, вдосконалювати</li>
+                <li>Хочу стати прикладом для когось</li>
+                <li>Вміти правильно планувати свій час</li>
             </ol>
         </div>
     </main>
@@ -102,34 +126,37 @@
 
     <main class="h1">
         <div class="container" id="Portfolio">
-            <div class="about">ПОРТФОЛІО</div>
-            <p class="paragraf1">
-                Ось декілька моїх робіт на теперішній час:
-            </p>
-            <br>
-            <div class="photo-second">
-                <img class="img-photo2" src="photo10.jpg">
-                <img class="img-photo2" src="photo11.jpg">
-                <img class="img-photo2" src="photo16.jpg">
-                <img class="img-photo2" src="photo17.jpg">
-                <img class="img-photo2" src="photo19.jpg">
-                <img class="img-photo2" src="photo14.jpg">
-                <img class="img-photo2" src="photo12.jpg">
-                <img class="img-photo2" src="photo15.jpg">
-            </div>
-
-
             <div class="about" id="Programs">
-                програми які використовую у навчання
+                Програмки які використовую у навчанні і в роботі
             </div>
             <br>
             <div class="photo-third">
-                <img class="img-photo3" src="photo24.jpg">
-                <img class="img-photo3" src="photo23.jpg">
-                <img class="img-photo3" src="photo22.jpg">
-                <img class="img-photo3" src="photo25.jpg">
+                <img class="img-photo3" src="indezing.jpg">
+                <img class="img-photo3" src="illustrator.jpg">
+                <img class="img-photo3" src="photoshop.jpg">
+                <img class="img-photo3" src="figma.jpg">
 
             </div>
+            <div class="about">Роботи</div>
+            <p class="paragraf1">
+                Одна із робіт яку я робила на навчанні <b>"Календар"</b>:
+            </p>
+            <br>
+            <div class="photo-second">
+                <img class="img-photo2" src="calendar january.jpg">
+                <img class="img-photo2" src="calendar february.jpg">
+                <img class="img-photo2" src="calendar marth.jpg">
+                <img class="img-photo2" src="calendar april.jpg">
+                <img class="img-photo2" src="calendar may.jpg">
+                <img class="img-photo2" src="calendar june.jpg">
+                <img class="img-photo2" src="calendar july.jpg">
+                <img class="img-photo2" src="calendar august.jpg">
+                <img class="img-photo2" src="calendar september.jpg">
+                <img class="img-photo2" src="calendar october.jpg">
+                <img class="img-photo2" src="calendar november.jpg">
+                <img class="img-photo2" src="calendar desember.jpg">
+            </div>
+
 
         </div>
     </main>
@@ -139,47 +166,22 @@
         <div class="container">
             <div class="about2" id="Contacts"><b>КОНТАКТИ</b></div>
             <div class="flex">
-                <div class="bottom-container">
-                    <p class="paragraf2">
-                        +380686972899 <br/>
-                    </p>
-                    <p class="paragraf3">
-                        julliyakymiv@yahoo.com
-                    </p>
-                </div>
                 <div class="photo-fourth">
-                    <a href="https://www.facebook.com/profile.php?id=100012955964113" target="_blank"> <img class="imgphoto" src="photo2.jpg">
+                    <a href="https://www.instagram.com/___time_to_dream__/" target="_blank"> <img class="imgphoto" src="photo2.jpg">
                     </a>
-                    <a href="https://www.instagram.com/sofika_bushka" target="_blank"> <img class="imgphoto" src="photo1.jpg">
+                    <a href="https://www.facebook.com/mira.mirka.3762/" target="_blank"> <img class="imgphoto" src="photo1.jpg">
                     </a>
+                </div>
+                <div class="bottom-container">
+                    +380686972899 <br/>
+                    julliyakymiv@yahoo.com
                 </div>
             </div>
         </div>
     </main>
 
-    <main class="headerontop">
-        <nav class="navbar">
-            <ul class="menu1">
-                <div class="logo"><a href="#YULIA YAKYMIV">YULIA YAKYMIV</a>
-                </div>
-            </ul>
-            <ul class="menu">
-                <li>
-                    <a href="#about">Про мене</a>
-                </li>
-                <li>
-                    <a href="#Portfolio">Портфоліо</a>
-                </li>
-                <li>
-                    <a href="#Programs">Програми</a>
-                </li>
-                <li>
-                    <a href="#Contacts">Контакти</a>
-                </li>
-            </ul>
-        </nav>
-    </main>
-
+   
+<script src="js/nav.js"></script>
 </body>
 
 </html>

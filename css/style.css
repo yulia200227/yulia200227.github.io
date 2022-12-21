@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: rgb(16, 93, 75);
+    background: rgb(255, 255, 255);
 }
 
 .black {
@@ -16,22 +16,24 @@ body {
 
 .about {
     display: flex;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-family: 'Unbounded', cursive;
+    font-size: 30px;
     font-weight: bold;
     justify-content: center;
-    margin: 40px 0px 0px 30px;
+    margin: 40px 0px 0px 0;
     color: rgb(16, 93, 75);
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 #about {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 70px;
 }
 
 .about1 {
     display: flex;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Unbounded', cursive;
     font-size: 25px;
     font-weight: bold;
     justify-content: left;
@@ -40,18 +42,17 @@ body {
 }
 
 .about2 {
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Unbounded', cursive;
     font-size: 25px;
     font-weight: 700;
-    justify-content: left;
-    margin: 30px 0px 20px 40px;
+    margin: 30px 0px 20px 0;
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .paragraf {
     display: block;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 400;
     font-size: 16px;
     margin: 5px 30px 5px 33px;
@@ -61,17 +62,19 @@ body {
 
 .paragraf1 {
     display: block;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    margin: 30px 30px 5px 33px;
+    margin: 60px 30px 5px 33px;
     color: rgb(16, 93, 75);
     max-width: 1350px;
+    text-align: center;
+
 }
 
 .paragraf2 {
     display: block;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-size: 16px;
     margin-left: 40px;
@@ -79,7 +82,7 @@ body {
     max-width: 1350px;
 }
 
-.paragraf3 {
+/* .paragraf3 {
     display: block;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
@@ -87,15 +90,15 @@ body {
     margin-left: 40px;
     color: white;
     max-width: 1350px;
-}
+} */
 
 .paragraf a {
     text-decoration: none;
-    color: rgb(16, 93, 75);
+    color: rgb(255, 255, 255);
 }
 
 .exception {
-    font-size: 17px;
+    font-size: 20px;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
@@ -104,9 +107,9 @@ body {
 
 .hobbimenu {
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    margin: 0px 0px 20px 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 350;
+    margin: 10px 0px 25px 25px; 
     color: white;
 }
 
@@ -117,7 +120,7 @@ body {
     gap: 70px;
 }
 
-.oneimg {
+.imgmy {
     border-radius: 20px;
     width: auto;
 }
@@ -141,39 +144,39 @@ body {
     box-shadow: rgb(16, 93, 75);
     width: auto;
     height: 175px;
-    margin: 0px 10px 20px 0px;
+    margin: 0px 15px 25px 0px;
 }
 
 .photo-fourth {
     display: flex;
-    margin-right: 40px;
-    justify-content: right;
-    gap: 50px;
+    justify-content: center;
+    gap: 10px;
 }
 
 .photo-third {
     display: flex;
-    margin: 20px 30px 50px 30px;
+    margin: auto;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+   
+
 }
 
 .img-photo3 {
-    border-radius: 10px;
-    width: auto;
-    height: 150px;
+    width: 110px;
     gap: 80px;
 }
 
 .imgphoto {
-    border-radius: 150px;
-    width: auto;
-    height: 80px;
+    border-radius: 50px;
+    width: 35px;
 }
 
 .goalsmenu {
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 400;
     margin: 5px 0px 20px 20px;
     color: white;
@@ -181,7 +184,13 @@ body {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+
 }
+
 
 .headerontop {
     position: sticky;
@@ -196,7 +205,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1024px;
+    /* max-width: 1024px; */
     padding-left: 25px;
     padding-right: 25px;
     margin: 0 auto;
@@ -206,8 +215,14 @@ body {
 .flex {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
     padding-bottom: 30px;
+}
+.bottom-container {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .home-content {
@@ -217,18 +232,19 @@ body {
 }
 
 .home-content-left {
-    max-width: 380px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-right: 30px;
+    padding-right: 10px;
+    padding-left: 200px;
 }
 
 .home-title {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Unbounded', cursive;
     color: white;
 }
 
@@ -237,10 +253,10 @@ body {
     line-height: 1.5em;
     background-color: rgb(7, 193, 150);
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    padding: 15px 25px;
+    font-size: 18px;
+    padding: 15px 35px;
     margin-top: 20px;
     border-radius: 15px;
 }
@@ -259,11 +275,13 @@ img {
     width: 100%;
 }
 
-.onephoto {
+.myphoto {
     display: flex;
     justify-content: right;
     gap: 30px;
-    width: 50%;
+    width: 35%;
+    margin-top: 20px;
+    margin-right: 200px;
 }
 
 #Portfolio {
@@ -281,7 +299,7 @@ nav {
 
 .navbar {
     background-color: rgb(16, 93, 75);
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -291,7 +309,7 @@ nav {
 
 .logo {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Unbounded', cursive;
     font-weight: 700;
     font-size: 18px;
     white-space: nowrap;
@@ -311,7 +329,7 @@ nav {
     text-decoration: none;
     line-height: 1.5em;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-size: 20px;
     padding: 4px 15px;
@@ -338,7 +356,7 @@ nav {
     text-decoration: none;
     line-height: 1.5em;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-size: 16px;
     padding: 4px 15px;
